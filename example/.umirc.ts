@@ -9,6 +9,7 @@ export default defineConfig({
     require.resolve('../packages/plugin-esbuild/lib'),
     require.resolve('../packages/plugin-qiankun/lib'),
     require.resolve('../packages/plugin-antd-dayjs/lib'),
+    require.resolve('../packages/plugin-umi-strapi-permit/lib'),
   ],
   routes: [
     {
